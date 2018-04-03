@@ -1,0 +1,10 @@
+graph_album.png :datos.txt graph.py
+	python graph.py
+
+datos.txt : album
+	./album>datos.txt
+album:
+
+	c++ album.cpp -o album
+
+
